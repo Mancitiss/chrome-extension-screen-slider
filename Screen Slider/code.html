@@ -1,0 +1,52 @@
+<html style="width: 800px; height: 200px" class='w-full h-full overflow-hidden hide-scrollbar'>
+
+<head>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tailwind.css">
+</head>
+
+<body class='relative h-screen w-screen flex items-center bg-white dark:bg-neutral-950 flex-col'>
+
+    <div class="w-full h-full items-center justify-center bg-white dark:bg-black p-2  edit-parent-border"
+        id="main-design-container">
+        <main class=" w-full h-full flex items-center justify-center p-4  edit-border" draggable="false">
+            <section class=" w-full bg-neutral-50 dark:bg-neutral-950 text-neutral-900 dark:text-neutral-50 p-4 "
+                description="This section represents a small popup modal that appears over the main content. It contains placeholders for four textboxes where users can input numerical values for window dimensions. Below the textboxes, there are two sliders that allow users to adjust the dimensions within a range. The section is centered and has a shadow to mimic the appearance of a modal overlay."
+                draggable="false">
+                <div class=" flex flex-col items-center justify-center p-6 bg-white text-black rounded-lg "
+                    draggable="false">
+                    <div class="flex flex-col space-y-4 mb-6 ">
+                        <div class="flex items-center justify-between ">
+                            <label id="about" class=" text-md font-medium " draggable="false"> Loading...
+                            </label>
+                        </div>
+                    </div>
+                    <div class="flex flex-col space-y-4 w-full ">
+                        <div class="">
+                            <label id="label-width" for="width-range" class="text-md font-medium ">Width
+                                Shift:
+                            </label>
+                            <input type="number" id="width-box" class="mx-2"> 
+                            <input type="range" id="width-range"
+                                class="w-full h-2 bg-black rounded-lg appearance-none cursor-pointer " min="0"
+                                max="100">
+                        </div>
+                        <div class="">
+                            <label id="label-height" for="height-range" class="text-md font-medium ">Height
+                                Shift:
+                            </label>
+                            <input type="number" id="height-box" class="mx-2"> 
+                            <input type="range" id="height-range"
+                                class="w-full h-2 bg-black rounded-lg appearance-none cursor-pointer " min="0"
+                                max="100">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="./popup.js"></script>
+</body>
+
+</html>

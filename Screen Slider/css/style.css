@@ -1,0 +1,1183 @@
+@font-face {
+  font-family: 'Euclid';
+  src: url("../../fonts/euclid/regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Euclid';
+  src: url("../../fonts/euclid/medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Euclid';
+  src: url("../../fonts/euclid/bold.ttf");
+  font-style: bold;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Euclid';
+  src: url("../../fonts/euclid/bold.ttf");
+  font-style: bold;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Euclid';
+  src: url("../../fonts/euclid/bold.ttf");
+  font-style: bold;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Euclid';
+  src: url("../../fonts/euclid/light.ttf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Euclid';
+  src: url("../../fonts/euclid/regular.ttf");
+  font-weight: 300;
+}
+
+
+@font-face {
+  font-family: 'Outfit';
+  src: url("../../fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: 'Archivo';
+  src: url("../../fonts/others/ArchivoBlack-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Bebas';
+  src: url("../../fonts/others/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Caveat';
+  src: url("../../fonts/others/Caveat-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  src: url("../../fonts/others/DancingScript-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: 'Lexend';
+  src: url("../../fonts/others/Lexend-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url("../../fonts/others/Lora-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../../fonts/others/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: 'Sora';
+  src: url("../../fonts/others/Sora-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: 'Vollkorn';
+  src: url("../../fonts/others/Vollkorn-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: 'DMSerif';
+  src: url("../../fonts/others/DMSerifDisplay-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Kanit';
+  src: url("../../fonts/others/Kanit-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'LilitaOne';
+  src: url("../../fonts/others/LilitaOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("../../fonts/others/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'SpaceMono';
+  src: url("../../fonts/others/SpaceMono-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("../../fonts/others/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../../fonts/others/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'RussoOne';
+  src: url("../../fonts/others/RussoOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("../../fonts/others/Inter-VariableFont_slnt,wght.ttf");
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url("../../fonts/others/DMSans-VariableFont_opsz,wght.ttf");
+}
+
+@font-face {
+  font-family: 'Geist';
+  src: url("../../fonts/others/GeistVariableVF.ttf");
+}
+
+@font-face {
+  font-family: 'Geist Mono';
+  src: url("../../fonts/others/GeistMonoVariableVF.ttf");
+}
+
+.euclid{
+  font-family: 'Euclid', sans-serif !important;
+}
+
+.inter{
+  font-family: 'Inter', sans-serif !important;;
+}
+
+.outfit{
+  font-family: 'Outfit', sans-serif !important;;
+}
+
+.archivo{
+  font-family: 'Archivo', sans-serif !important;;
+}
+
+.bebas{
+  font-family: 'Bebas', sans-serif !important;;
+}
+
+.caveat{
+  font-family: 'Caveat', sans-serif !important;;
+}
+
+.dancing{
+  font-family: 'Dancing Script', sans-serif !important;;
+}
+
+.lexend{
+  font-family: 'Lexend', sans-serif !important;;
+}
+
+.lora{
+  font-family: 'Lora', sans-serif !important;;
+}
+
+.montserrat{
+  font-family: 'Montserrat', sans-serif !important;;
+}
+
+.sora{
+  font-family: 'Sora', sans-serif !important;;
+}
+
+.vollkorn{
+  font-family: 'Vollkorn', sans-serif !important;;
+}
+
+.dmserif{
+  font-family: 'DMSerif', sans-serif !important;;
+}
+
+.kanit{
+  font-family: 'Kanit', sans-serif !important;;
+}
+
+.poppins{
+  font-family: 'Poppins', sans-serif !important;;
+}
+
+.dmsans{
+  font-family: 'DM Sans', sans-serif !important;;
+}
+
+.giest{
+  font-family: 'Geist', sans-serif !important;;
+}
+
+.geist-mono{
+  font-family: 'Geist Mono', sans-serif !important;;
+}
+
+#gjs,
+#viewer {
+  height: 90vh;
+}
+
+#viewer iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.gjs-pn-panel {
+  background-color: white !important
+}
+
+.gjs-one-bg {
+  background-color: white !important
+}
+
+.gjs-field {
+  background-color: black !important
+}
+
+.gjs-two-color {
+  color: black !important
+}
+
+.gjs-pn-btn.gjs-pn-active {
+  background-color: black !important;
+}
+
+.gjs-four-color {
+  color: white !important;
+}
+
+.gjs-field input,
+.gjs-field select,
+.gjs-field textarea {
+  color: white !important;
+}
+
+.gjs-three-bg {
+  background-color: #542add !important;
+  color: white !important
+}
+
+.border-16{
+  border-width: 16px !important;
+
+}
+
+.h-18{
+  height: 4.5rem !important;
+}
+
+.py-4-5{
+  padding-top: 1.10rem !important;
+  padding-bottom: 1.10rem !important;
+
+}
+
+.parent-div {
+  position: relative;
+}
+
+.additional-content {
+  position: relative;
+  clear: both; /* This ensures the new content will appear below the masonry grid */
+}
+
+.mygradient {
+  background: radial-gradient(50% 43.47% at 50% 50%, #5d0ba1 0%, #000 100%), linear-gradient(121.28deg, #13ff4e 0%, #F00 100%), linear-gradient(360deg, #0029FF 0%, #F9BED1 100%), radial-gradient(100% 164.72% at 100% 100%, #6A19EF 0%, #0AE837 100%), radial-gradient(100% 148.07% at 0% 0%, #000 0%, #ED0C0C 100%);
+  background-blend-mode: multiply, color-dodge, overlay, difference, normal;
+}
+
+.text-7xl{
+  font-size: 5.25rem !important;
+  line-height: 1 !important;
+  letter-spacing: -0.5px !important;
+}
+
+.mygradient2{
+  background: linear-gradient(
+    to bottom,
+    rgb(12, 20, 30) 0%,       /* Dark blue at the top */
+    rgb(32, 60, 101) 25%,     /* Medium blue */
+    rgb(20, 69, 150) 50%,     /* Brighter blue */
+    rgb(37, 71, 109) 75%,     /* Medium blue */
+    rgb(12, 20, 30) 100%      /* Dark blue at the bottom */
+  );
+  
+  /* Ensuring the gradient covers the whole page */
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.max-w-700{
+  max-width: 700px !important;
+
+}
+
+#gjs-clm-add-tag,
+.gjs-clm-tags-btn {
+  background-color: #542add !important;
+  color: white !important;
+  height: 100%
+}
+
+.text-3xl, .text-4xl, .text-2xl, .text-5xl, h1, h2, h3{
+ 
+  letter-spacing: -0.4px;
+}
+
+.text-8xl{
+  letter-spacing: -1.0px;
+}
+
+.euclid{
+  font-family: 'Euclid', sans-serif;
+}
+
+.outfit{
+  font-family: 'Outfit', sans-serif;
+}
+
+/*.gjs-cv-canvas{
+    width: 70% !important;
+}
+.gjs-pn-views-container{
+    width: 30% !important;
+}
+.gjs-pn-commands{
+    width: 70% !important;
+}*/
+p, h4, h5, h6, a {
+ 
+  letter-spacing: -0.2px;
+}
+
+input[type="checkbox"]:checked+label>div {
+  background-color: #E2E8F0;
+  /* Lighter shade of gray */
+  border-color: transparent;
+}
+
+input[type="checkbox"]:checked+label #check-icon {
+  display: block;
+}
+
+.overflow-hidden{
+  overflow: hidden !important;
+}
+
+pre {
+  white-space: pre-wrap;       /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.875rem !important; /* 14px */
+line-height: 1.25rem  !important; /* 20px */
+}
+
+.hide-scrollbar {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari and Opera */
+}
+
+.border-1 {
+  border-width: 1px;
+}
+
+.codeMirrorFullScreen .CodeMirror {
+  height: 100%;
+  width: 100%;
+  font-family: 'Geist' !important;
+  font-size: 13px !important;
+}
+
+.CodeMirror::-webkit-scrollbar {
+  display: none;
+}
+
+.CodeMirror {
+  background-color: #ffffff !important;
+  border-radius: 1.5rem;
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+  padding: 1rem;
+  font-family: 'Geist Mono' !important;
+  font-size: 13px !important;
+  border: 1px solid #efefef !important;
+}
+
+
+.edit-border{
+  border: 1.5px solid rgb(124, 43, 255, 1.0) !important;
+}
+
+.edit-parent-border{
+  border: 1.5px dashed rgb(124, 43, 255, 1.0) !important;
+}
+
+.xray-border{
+  border: 1.5px dashed rgb(255, 0, 0, 0.9) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .CodeMirror {
+    background-color: #151515 !important;
+    border: 1px solid #1d1c1c !important;
+  }
+}
+
+#codediv{
+  background-color: rgba(240,240,240,0.99);
+}
+
+#shortcuts{
+  background-color: rgba(240,240,240,0.8);
+
+}
+
+@media (prefers-color-scheme: dark) {
+  #codediv {
+    background-color: rgba(0,0,0,0.99) !important;
+  }
+}
+
+.CodeMirror-gutters {
+  background-color: #0A0A0A !important;
+  border-right: none;
+}
+
+.CodeMirror-linenumber {
+  color: black !important;
+}
+
+.border-r-1 {
+  border-right-width: 1px;
+}
+
+#toast-container>.toast-success {
+  background-color: #020617;
+  color: #ffffff;
+}
+
+#toast-container>.toast:before {
+  content: none !important;
+}
+
+.w-4-5{
+  width: 1.125rem !important;
+}
+
+.h-4-5{
+  height: 1.125rem !important;
+}
+
+#toast-container>.toast {
+  background-image: none !important;
+  padding: 0.5rem !important;
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+
+#toast-container>.toast {
+  box-shadow: 2px 2px 4px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  background-color: #6D28D9;
+  border: 0px solid #e6e6e6;
+  border-radius: 0.75rem;
+  font-size: 13px !important;
+  color: #ffffff;
+  font-family: "DM Sans" !important;
+  max-width: 300px !important;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  #toast-container>.toast {
+    width: 80% !important;
+  }
+}
+
+#toast-container>.toast:hover {
+  box-shadow: none !important;
+}
+
+#toast-container:hover {
+  box-shadow: none !important;
+}
+
+.lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: #ffffff;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+
+  50%,
+  100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s linear, visibility 0.5s linear;
+}
+
+.fade-in.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.fade {
+  transition: opacity 0.1s ease-in-out; /* 0.3s duration for the fade effect */
+}
+
+.hidden-opacity {
+  opacity: 0;
+  visibility: hidden; /* ensures that the iframe is not Interactable when hidden */
+}
+
+.border-top-1{
+  border-top-width: 1px;
+}
+
+.border-bottom-1{
+  border-bottom-width: 1px;
+}
+
+.iframe-transition {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.div, p, h1, h2, h3, h4, h5, h6 {
+ 
+  letter-spacing: -0.1px;
+}
+
+@keyframes rotate360 {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate360Slow {
+  0%, 33% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+.rotate-360 {
+  animation-name: grow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.rotate-360-slow {
+  animation-name: grow;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.rounded-triangle {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%, 50% 85%, 50% 15%);
+}
+
+#select_or_revision {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+  }
+  
+}
+
+.CodeMirror-hints {
+  position: absolute;
+  z-index: 10;
+  overflow: hidden;
+  list-style: none;
+
+  margin: 0;
+  padding: 2px;
+
+  -webkit-box-shadow: 2px 3px 5px rgba(0,0,0,.2);
+  -moz-box-shadow: 2px 3px 5px rgba(0,0,0,.2);
+  box-shadow: 2px 3px 5px rgba(0,0,0,.2);
+  border-radius: 3px;
+  border: 1px solid silver;
+
+  background: white;
+  font-size: 90%;
+  font-family: monospace;
+
+  max-height: 20em;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.CodeMirror-hint {
+  margin: 0;
+  padding: 0 4px;
+  border-radius: 2px;
+  white-space: pre;
+  color: black;
+  cursor: pointer;
+}
+
+li.CodeMirror-hint-active {
+  background: #08f;
+  color: white;
+}
+
+
+.shadow-md{
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05) !important;
+} 
+
+.shadow-lg{
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 0.05) !important;
+}
+
+.fa-2x{
+  font-size: 1rem !important;
+}
+
+.fa-3x{
+  font-size: 1.5rem !important;
+}
+
+.fa-1x{
+  font-size: 0.9rem !important;
+}
+
+input{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.outlineHover {
+  transition: outline 0.5s ease;
+}
+
+.translate-center-scale {
+  transform: translate(-50%, -50%);
+}
+
+.translate-center-scale:hover {
+  transform: translate(-50%, -50%) scale(1.05);
+}
+
+.selected-revision {
+  border: 2px solid #000000 !important; /* Change this to the color you want */
+  position: relative;
+}
+
+/*
+.selected-revision::after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #000000 !important; 
+}*/
+
+.select-style {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  width: 120px;
+  border-radius: 3px;
+  overflow: hidden;
+  background: #fff url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") no-repeat 90% 50%;
+}
+
+.select-style select {
+  padding: 5px 8px;
+  width: 130%;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+  transition: transform 0.2s ease;
+}
+
+#iframe {
+  transition: height 0.2s ease, transform 0.2s ease;
+  /* Minimum width set to half of screen width */
+  min-height: 50vh; /* Minimum height set to half of screen height */
+    width: auto; /* Allows it to grow as needed */
+    height: auto; /* Allows it to grow as needed */
+    box-sizing: border-box; /* Ensures padding and borders are included in the width/height calculations */
+
+}
+
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none; /* Hidden by default */
+}
+
+.btn-height{
+  min-height: 2rem !important;
+  height: 2rem !important;
+  font-weight: 500 ;
+}
+
+.tab{
+  height: auto !important;
+}
+
+
+.text-xs{
+  font-size: 13px !important;
+}
+
+.text-xxs{
+  font-size: 12px !important;
+}
+
+
+.w-33{
+  width: 136px !important;
+}
+
+.tab{
+  border-radius: 0.25rem !important;
+}
+
+.highlight {
+  /*transition: transform 0.1s ease, border 0.1s ease;*/
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.dark .highlight {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+
+.gu-mirror {
+  display: none !important;
+}
+
+.tooltip-container{
+  max-height: 18rem !important;
+  max-width: 38rem !important;
+  overflow: hidden !important;
+}
+
+.ml-68{
+  margin-left: 17rem; /* 256px */
+}
+
+.sortable-item {
+  cursor: pointer; /* Indicates that the item is movable */
+  
+  border-color: transparent;
+  border: 1.5px solid transparent; /* Add an invisible border */
+  box-sizing: border-box;
+}
+
+.sortable-item.hover {
+  border-color: rgb(124, 43, 255, 1.0);
+  border-width: 1.5px !important;
+  border-style: solid;
+}
+
+
+
+/* Style for the item being dragged */
+.sortable-chosen {
+  cursor: move; /* Indicates that the item is movable */
+}
+
+/* Style for the drop placeholder */
+.sortable-ghost {
+  
+}
+
+[contenteditable="true"] {
+  border: 1px solid black !important; /* Example: dashed green border */
+}
+
+
+#customContextMenu {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  padding: 10px;
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+#customContextMenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#customContextMenu li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 5px 10px;
+}
+
+#customContextMenu li a:hover {
+  background-color: #eee;
+}
+
+
+.CodeMirror-lines {
+  padding-right: 60px !important; /* Adjust the value as needed */
+}
+
+.dropdown-button {
+  position: relative;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.dropdown-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #2563eb;
+}
+
+.dropdown {
+  position: absolute;
+  bottom: 35px;
+  right: -10px;
+  margin-top: 0.25rem;
+  width: 8rem;
+  display: none;
+  z-index: 100000;
+}
+
+.hs-dropdown-menu{
+  z-index: 100000;
+
+}
+
+.dropdown-button::after {
+  content: "";
+  position: absolute;
+  top: 45%;
+  right: 8px; /* Center the arrow horizontally */
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(0,0,0,0.5) transparent transparent transparent;
+}
+
+.dark .dropdown-button::after {
+  /* Your dark mode styles here */
+  border-color: rgba(255,255,255,0.5) transparent transparent transparent;
+}
+
+.dropdown-button-no-arrow::after {
+  display: none;
+}
+
+.dropdown-item {
+  cursor: pointer;
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  color: #4b5563;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+
+
+.overflow-visible{
+  overflow: visible !important;
+}
+
+.text-base{
+  font-size: 15px !important;
+}
+
+input[type='color'] {
+  padding: 0.25rem;
+  height: 2em; /* You can set the height */
+  width: 2em; /* You can set the width */
+  border-radius: 0.35rem !important;
+  -webkit-appearance: none; /* Removes default styling for WebKit browsers */
+}
+
+/* Specific styles for WebKit browsers to adjust the inner part of the input */
+input[type='color']::-webkit-color-swatch-wrapper {
+  border-radius: 0.35rem;
+  padding: 0;
+}
+
+input[type='color']::-webkit-color-swatch {
+  border: none;
+  border-radius: 0.35rem;
+}
+
+.h-108	{
+  height: 32rem; /* 384px */
+}
+
+
+.CodeMirror * {
+  font-family: 'Geist Mono' !important;
+  font-size: 13px !important;
+}
+
+.scanner {
+  position: absolute;
+  height: 100%;
+  width: 4px; /* Change the width for the scanning line */
+  background-color: #772eec;
+  animation: scan-animation 2s linear infinite;
+}
+
+@keyframes scan-animation {
+  0%, 100% {
+      left: 0;
+  }
+  50% {
+      left: 100%;
+      transform: translateX(-100%); /* Adjust the translation to account for the width of the scanner */
+  }
+}
+
+.switchbox{
+  display: flex;
+  justify-content: start;
+  transition: justify-content 0.8s ease-in-out;
+}
+
+.tippy-box[data-theme~='custom'] {
+  background-color: #F5F5F5;
+  color: #1c1c1c;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #e4e4e4;
+  box-shadow: 0px 9px 5px -8px rgba(0,0,0,0.05);
+  max-width: 100% !important;
+}
+
+.dark .tippy-box[data-theme~='custom'] {
+  background-color: #000000;
+  color: #f9f9f9;
+  border: 1px solid rgb(29, 29, 29);
+}
+
+.checkerboard {
+  background-image: 
+    linear-gradient(45deg, #999 25%, transparent 25%), 
+    linear-gradient(-45deg, #999 25%, transparent 25%), 
+    linear-gradient(45deg, transparent 75%, #999 75%), 
+    linear-gradient(-45deg, transparent 75%, #999 75%);
+  background-size: 4px 4px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+
+@keyframes shine {
+  0% {
+      background-position: -100%;
+  }
+  100% {
+      background-position: 100%;
+  }
+}
+
+.shine-effect {
+  display: inline-block;
+  background: linear-gradient(90deg, #000, rgba(109,40,217,1.0), #000);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: shine 2s linear infinite;
+}
+
+.dark .shine-effect {
+  background: linear-gradient(90deg, #ffffff, rgba(109,40,217,1.0), #ffffff);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: shine 2s linear infinite;
+}
+
+.text-regular{
+  font-size: 15px !important;
+}
+
+#showcase_container {
+  overflow: hidden;
+  position: relative;
+  height: 100vh; /* Adjust this to your needs */
+}
+
+
+#images_grid {
+  position: relative;
+  transition: opacity 1s ease-in-out;
+}
+
+.item {
+  position: relative;
+  will-change: transform; /* Optimizes for animations */
+}
+
+@keyframes typewriter {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  75% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#circle-container {
+  position: relative;
+  width: 100%;
+}
+
+#circle1 {
+  position: absolute;
+  animation: typewriter 4s infinite;
+}
+
+.modal-z-index{
+  z-index:9999999;
+}
+
+/* This styles the text selection color */
+::selection {
+  background: #6D28D9;
+  /* Purple background */
+  color: #FFFFFF;
+  /* White text */
+}
+
+/* Mozilla-based browsers may need this */
+::-moz-selection {
+  background: #6D28D9;
+  /* Purple background */
+  color: #FFFFFF;
+  /* White text */
+}
+
+
+.border-r-9{
+  border-right-width: 10px !important;
+}
+
+/*
+[type="text"], input:where(:not([type])), [type="email"], [type="url"], [type="password"], [type="number"], [type="date"], [type="datetime-local"], [type="month"], [type="search"], [type="tel"], [type="time"], [type="week"], [multiple], textarea, select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-width: 0px !important;
+  border-color: transparent !important;
+  line-height: 1rem !important;
+}*/

@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Screen Slider",
+  "version": "0.0.1",
+  "description": "A basic extension that can slide the browser's screen left, right, up, and down.",
+  "icons": {
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "action": {
+    "default_popup": "code.html",
+    "default_icon": "icon-48.png"
+  },
+  "permissions": [
+    "storage",
+    "scripting",
+    "activeTab"
+  ]
+}
